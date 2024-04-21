@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "RobotoMono Nerd Font Mono",
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.tabSize": 2,
+    "terminal.integrated.fontFamily": "RobotoMono Nerd Font Mono"
+}
