@@ -7,4 +7,8 @@
     "editor.mouseWheelZoom": true,
 
     "terminal.integrated.fontFamily": "RobotoMono Nerd Font Mono",
+    "git.openRepositoryInParentFolders": "always",
+    "terminal.integrated.stickyScroll.enabled": true,
+    "editor.stickyScroll.enabled": false,
+    "workbench.tree.enableStickyScroll": false,
 }

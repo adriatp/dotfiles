@@ -3,8 +3,9 @@
 Config files for different programs:
 
 - bash
-- tmux
+- kitty
 - VSCodium
+- starship
 - ...
 
 ## Install
@@ -14,6 +15,8 @@ Config files for different programs:
 ```bash
 # Install bash-completion
 sudo pacman -Sy bash-completion
+# Install kitty
+sudo pacman -Sy kitty
 # Install asdf-vm
 git clone https://aur.archlinux.org/asdf-vm.git && cd asdf-vm && makepkg -si
 # Install starship
@@ -23,6 +26,7 @@ curl -sS https://starship.rs/install.sh | sh
 ### in ubuntu
 
 ```bash
+# Install kitty
 sudo apt install kitty
 # Install asdf-vm
 git clone https://aur.archlinux.org/asdf-vm.git && cd asdf-vm && makepkg -si

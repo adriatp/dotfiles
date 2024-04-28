@@ -15,6 +15,9 @@ alias ll='ls -lha'
 alias c='cat'
 alias r='bundle exec rails'
 alias code='vscodium'
+alias xc='xclip -selection clipboard'
+alias pacman='sudo pacman'
+alias py='python3'
 
 # bash-completions
 [[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
