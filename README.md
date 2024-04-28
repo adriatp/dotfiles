@@ -9,11 +9,21 @@ Config files for different programs:
 
 ## Install
 
+### in arch
+
 ```bash
 # Install bash-completion
 sudo pacman -Sy bash-completion
-# Install tmux
-sudo pacman -Sy tmux
+# Install asdf-vm
+git clone https://aur.archlinux.org/asdf-vm.git && cd asdf-vm && makepkg -si
+# Install starship
+curl -sS https://starship.rs/install.sh | sh
+```
+
+### in ubuntu
+
+```bash
+sudo apt install kitty
 # Install asdf-vm
 git clone https://aur.archlinux.org/asdf-vm.git && cd asdf-vm && makepkg -si
 # Install starship
